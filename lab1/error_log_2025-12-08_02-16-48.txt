@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\251734066.py", line 306, in <module>
+    experiment_results = run_full_experiment()
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\251734066.py", line 217, in run_full_experiment
+    model_type=final_model_type,
+NameError: name 'final_model_type' is not defined. Did you mean: 'final_model'?

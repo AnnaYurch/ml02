@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\3741692674.py", line 374, in <module>
+    experiment_results = run_full_experiment()
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\3741692674.py", line 289, in run_full_experiment
+    train_predictions = final_pipeline.predict(features)
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\2162315988.py", line 369, in predict
+    return self.regression_model.predict(X_transformed)
+  File "C:\Users\annay\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_base.py", line 298, in predict
+    return self._decision_function(X)
+  File "C:\Users\annay\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_base.py", line 277, in _decision_function
+    X = validate_data(self, X, accept_sparse=["csr", "csc", "coo"], reset=False)
+  File "C:\Users\annay\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 2975, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+  File "C:\Users\annay\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 2839, in _check_n_features
+    raise ValueError(
+ValueError: X has 1326 features, but LinearRegression is expecting 398 features as input.

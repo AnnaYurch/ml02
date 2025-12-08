@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\1383184727.py", line 320, in <module>
+    experiment_results = run_full_experiment()
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\1383184727.py", line 243, in run_full_experiment
+    final_pipeline.fit(X_final_train, target)
+AttributeError: 'DataModelingPipeline' object has no attribute 'fit'

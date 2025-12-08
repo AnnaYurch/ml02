@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\854444952.py", line 365, in <module>
+    experiment_results = execute_experiment()
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\854444952.py", line 197, in execute_experiment
+    train_data = engineer_new_features(train_data)
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\854444952.py", line 73, in engineer_new_features
+    df['log_net_position'] = transform_with_sign_preservation(df['net_position'])
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\854444952.py", line 9, in transform_with_sign_preservation
+    sign_component = np.sign(data_array)
+NameError: name 'data_array' is not defined

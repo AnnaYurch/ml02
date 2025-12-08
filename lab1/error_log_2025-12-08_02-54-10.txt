@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\309871127.py", line 363, in <module>
+    experiment_results = run_full_experiment()
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\309871127.py", line 286, in run_full_experiment
+    final_pipeline.fit(X_final_train, target)
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\3041334011.py", line 305, in fit
+    X_selected = self._select_relevant_features(X_processed, y_train, is_training=True)
+  File "C:\Users\annay\AppData\Local\Temp\ipykernel_824\3041334011.py", line 201, in _select_relevant_features
+    self.feature_selector = SelectFromModel(
+NameError: name 'SelectFromModel' is not defined
